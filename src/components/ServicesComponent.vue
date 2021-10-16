@@ -7,21 +7,21 @@
                 <p>Veja como você pode cuidar das suas finanças pelo app Itaú de forma segura, 
                     rápida e o melhor, no corforto da sua casa.</p>
 
-                <div class="sevices">
+                <div class="services">
                     <ul>
                         <li>
                             <img src="../assets/img/icon-conta.svg" alt="">
                             <p>Acompanhar sua conta, fazer transferências e pagamentos de onde estiver</p>
                         </li>
-                            <li>
+                        <li>
                             <img src="../assets/img/icon-emprestimo.svg" alt="">
                             <p>Soluções de empréstimos e renegociação para organizar suas finanças</p>
                         </li>
-                            <li>
+                        <li>
                             <img src="../assets/img/icon-investimento.svg" alt="">
                             <p>Diversas opções de investimentos, de acordo com o seu perfil de investidor</p>
                         </li>
-                            <li>
+                        <li>
                             <img src="../assets/img/icon-cartao.svg" alt="">
                             <p>Acompanhe a fatura do seu cartão de crédito e faça compras online com seu cartão virtual.</p>
                         </li>
@@ -40,6 +40,7 @@
     .s-services {
         width: 100%;
         padding-top: 13.5rem;
+        padding-bottom: 12rem;
     }
     .container{
         width: 100%;
@@ -49,6 +50,62 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
+    }
+
+    .container .text span{
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 110%;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #EC7000;
+        margin-bottom: 3.5rem;
+    }
+
+    .container .text h2{
+        width: 100%;
+        max-width: 59.4rem;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 110%;
+        color: #33303E;
+        margin-bottom: 2.4rem;
+        letter-spacing: -0.01em;
+    }
+
+     .container .text P{
+        width: 100%;
+        max-width: 51.6rem;
+        font-size: 18px;
+        line-height: 150%;
+        color: #4E4B59;
+     }
+
+    .container .text .services {
+        margin-top: 6.9rem;
+    }
+
+     .container .text .services ul li{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 3.6rem;
+        padding-bottom: 1.6rem;
+        border-bottom: 0.1536rem solid rgba(100, 80, 57, 0.1);
+     }
+
+     .container .text .services ul li p{
+        width: 100%;
+        max-width: 48.6rem;
+        font-size: 1.6rem;
+        line-height: 150%;
+        color: #7A7786;
+        margin-left: 3.9rem;
+     }
+
+    .container .image{
+        position: relative;
+        left: -12rem;
     }
 
 </style>
