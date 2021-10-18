@@ -14,10 +14,10 @@
                 </div>
             </div>
             <div class="image">
-                 <img src="../assets/img/model.png" class="model" alt="">
+                <img src="../assets/img/model.png" class="model" alt="">
+                <img src="../assets/img/lines-phone.svg" class="lines-phone" alt="">
                 <img src="../assets/img/card1.png" class="card-1" alt="">
                 <img src="../assets/img/card2.png" class="card-2" alt="">
-                <img src="../assets/img/lines-phone.svg" class="lines-phone" alt="">
                 <img src="../assets/img/feitocomvc.svg" class="feito-vc" alt="">
 
             </div>
@@ -130,5 +130,110 @@
     .container .cta-download img:first-child {
         margin-right: 1.6rem;
     }
+
+    @media(max-width: 1200px) {
+        .s-hero .container .text{
+            max-width: 37rem;
+        
+        }
+        .container .text h1{
+            font-size: 5.5rem ;
+         
+        }
+        .container .text p{
+            font-size: 16px;
+        }
+
+    }
+
+    @media(max-width: 1050px){
+        .s-hero .container{
+            flex-direction: column;
+          
+        }
+        .s-hero .container .text{
+            text-align: center;
+            max-width: 80%;  
+            margin: 6rem auto 3rem auto;        
+        }
+        .s-hero .container .text p {
+            max-width: 100%;
+        }
+        .s-hero .container .continue {
+            justify-content: center;
+            margin-top: 4rem;
+        }
+
+        .s-hero .container .image {
+            width: 100%;
+            margin: 0 auto;
+        }
+   
+        .container .image .model{
+            position: relative;
+            left: 0;
+        }
+        .container .image .card-1{
+          
+            left: 10rem;
+         }
+
+        .container .image .card-2{
+            left: 38rem;
+            top: 29rem;
+           
+         }
+
+        .container .image .lines-phone{
+            left: 14rem;
+            
+        }
+    
+        .container .image .feito-vc{
+            display: none;
+        }
+        
+
+    }
+
+    @media(max-width: 480px){
+
+        .container .cta-download img:first-child {
+            margin-right: 0;
+            margin-bottom: 1rem;
+        }
+
+        .container .image {
+            height: auto;
+        }
+
+        .container .image img{
+            display: block;
+            max-width: 100%;
+            
+        }
+        .container .image .model{
+            position: relative;
+          
+        }
+        .container .image .card-1{
+            display: none;
+         }
+        .container .image .card-2{
+            display: none;
+         }
+        .container .image .lines-phone{
+            left: 14rem;
+            display: none;
+            
+        }
+        .container .image .feito-vc{
+            display: none;
+        }
+
+    }
+
+     
+
 
 </style>
