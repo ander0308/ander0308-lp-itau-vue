@@ -1,7 +1,7 @@
 <template>
     <section class="s-services">
         <div class="container">
-            <div class="text">
+            <div class="text animate__animated animate__fadeInLeft animate__slower">
                 <span>serviços exclusivos</span>
                 <h2>Gerencie suas finanças sem sair de casa</h2>
                 <p>Veja como você pode cuidar das suas finanças pelo app Itaú de forma segura, 
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="../assets/img/cellphone.png" alt="">
+                <img src="../assets/img/cellphone.png" class="animate__animated animate__fadeInUp animate__slow" alt="">
             </div>
         </div>
         <div class="bg-lateral">
@@ -119,6 +119,7 @@
     .container .image{
         position: relative;
         left: -12rem;
+        animation: floating 6s ease-in-out infinite;
     }
 
     @media(max-width: 1200px) {
@@ -176,6 +177,18 @@
         .container {
             flex-direction: column;
        
+        }
+    }
+
+     @keyframes floating {
+        0% {
+            transform: translateX(0);
+        }
+        66% {
+            transform: translateY(-20px);
+        }
+        100% {
+            transform: translateX(0);
         }
     }
 

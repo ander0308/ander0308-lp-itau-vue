@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="container">
+        <div class="container animate__animated animate__fadeInDown animate__slower">
             <div class="menu">
                 <a href=""><img src="../assets/img/logo.svg" class="logo" alt=""></a>
                 <nav>
@@ -30,7 +30,7 @@
                     <img src="../assets/img/icon-search.svg" alt="">
                     <a href="">Buscar</a>
                 </div>
-                  <div class="acesso">
+                  <div class="acesso animate__animated">
                     <img src="../assets/img/icon-user.svg" alt="">
                     <a href="">Acessar conta</a>
                 </div>
@@ -51,7 +51,6 @@ export default {
         background-color: #EC7000;
         height: 8rem;
         display: flex;
-        /* position: relative; */
     }
 
     .container{
@@ -61,7 +60,7 @@ export default {
         padding: 0 15px;
         display: flex;
         justify-content: space-between;
-           transition: all .3s;
+        transition: all .3s;
     }
 
     .container .menu {
@@ -101,9 +100,7 @@ export default {
     .container .btns {
         display: flex;
         align-items: center;
-        /* position: absolute;
-        top: 0;
-        right: 0; */
+
     }
     .container .btns .busca, 
     .container .btns .acesso{
@@ -118,6 +115,8 @@ export default {
         padding-right: 4.8rem;
         transition:  all .3s;
         cursor: pointer;
+        animation: shakeX infinite;
+        animation-duration: 9s;
     }
 
     .container .btns .acesso:hover{
@@ -178,10 +177,11 @@ export default {
             color: #FFFFFF;
     }
 
-    .container .btns img {
-        margin-right: 1.6rem;
-    }
+        .container .btns img {
+            margin-right: 1.6rem;
+        }
 
     }
+
 
 </style>

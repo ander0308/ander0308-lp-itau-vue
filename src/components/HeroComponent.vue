@@ -1,7 +1,7 @@
 <template>
     <section class="s-hero">
         <div class="container">
-            <div class="text">
+            <div class="text animate__animated animate__fadeInLeft animate__slow">
                 <h1>Tenha seu banco na palma da mão.</h1>
                 <p>Todas as operações que você precisa em um só lugar. Simples, completo e feito pra você.</p>
                 <div class="cta-download">
@@ -13,7 +13,7 @@
                     <span>Continue esplorando</span>
                 </div>
             </div>
-            <div class="image">
+            <div class="image animate__animated animate__fadeInRight animate__slow">
                 <img src="../assets/img/model.png" class="model" alt="">
                 <img src="../assets/img/lines-phone.svg" class="lines-phone" alt="">
                 <img src="../assets/img/card1.png" class="card-1" alt="">
@@ -77,6 +77,10 @@
         
     }
 
+    .container .continue img{
+        animation: floatingArrow 3s ease-in-out infinite;
+    }
+
     .container .continue span{
         font-weight: bold;
         font-size: 14px;
@@ -111,11 +115,13 @@
     .container .image .card-1{
         left: 1.3rem;
         bottom: 19.5rem;
+        animation: floating 9s ease-in-out infinite;
     }
 
     .container .image .card-2{
         right: 4.2rem;
         top: 28.1rem;
+        animation: floating 6s ease-in-out infinite;
     }
     
     .container .feito-vc{
@@ -233,7 +239,29 @@
 
     }
 
-     
+     @keyframes floating {
+        0% {
+            transform: translateX(0);
+        }
+        66% {
+            transform: translateY(-20px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes floatingArrow {
+        0% {
+            transform: translateX(0);
+        }
+        66% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
 
 
 </style>
