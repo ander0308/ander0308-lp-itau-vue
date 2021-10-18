@@ -80,7 +80,7 @@
         width: 100%;
         max-width: 59.4rem;
         font-weight: bold;
-        font-size: 56px;
+        font-size: 5.6rem;
         line-height: 110%;
         color: #33303E;
         margin-bottom: 2.4rem;
@@ -90,7 +90,7 @@
      .container .text P{
         width: 100%;
         max-width: 51.6rem;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 150%;
         color: #4E4B59;
      }
@@ -119,6 +119,64 @@
     .container .image{
         position: relative;
         left: -12rem;
+    }
+
+    @media(max-width: 1200px) {
+ 
+    }
+
+    @media(max-width: 1050px) {
+        .bg-lateral{
+            display: none;
+        }
+
+        .container .text {
+            margin: 0 auto;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        .container .text h2{
+            font-size: 48px;
+         
+        }
+
+        .container .text p{
+            font-size: 1.6rem;
+            margin: 0 auto;
+        }
+
+        .container .text .services p{
+            font-size: 1.6rem;
+            margin: 0 auto;
+    
+        }
+
+        .container .text .services ul li{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container .text .services ul li p{
+            margin-left: 0;
+        }
+        .container .text .services ul li img{
+            margin-bottom: 1.6rem;
+        }
+
+        .container .image img{
+           display: none;
+        }
+    }
+
+    @media(max-width: 480px){
+        .s-services {
+            padding-top: 4rem;
+        }
+        .container {
+            flex-direction: column;
+       
+        }
     }
 
 </style>
