@@ -32,6 +32,8 @@
                 <img src="../assets/img/cellphone.png" alt="">
             </div>
         </div>
+        <div class="bg-lateral">
+        </div>
     </section>
 </template>
 
@@ -41,6 +43,17 @@
         width: 100%;
         padding-top: 13.5rem;
         padding-bottom: 12rem;
+        position: relative;
+    }
+    
+    .bg-lateral{
+        width: 33%;
+        height: 96.4rem;
+        background-color:#F4F4F4;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
     }
     .container{
         width: 100%;

@@ -51,6 +51,7 @@ header{
     background-color: #EC7000;
     height: 8rem;
     display: flex;
+    /* position: relative; */
 }
 
 .container{
@@ -99,6 +100,9 @@ header{
 .container .btns {
     display: flex;
     align-items: center;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
 }
 .container .btns .busca, 
 .container .btns .acesso{
