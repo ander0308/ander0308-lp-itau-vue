@@ -1,6 +1,6 @@
 ## Landing Page - Redesign Itaú
 
-- Projeto desenvolvido utilizando o framwork Vue.js
+- Projeto desenvolvido utilizando o framework Vue.js
 - Link do projeto em produção: https://anderson-itau.netlify.app/
 
 <p align="center">
