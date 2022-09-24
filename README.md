@@ -1,4 +1,13 @@
-# lp-itau
+## Landing Page - Redesign Itaú
+
+- Projeto desenvolvido utilizando o framwork Vue.js
+- Link do projeto em produção: https://anderson-itau.netlify.app/
+
+<p align="center">
+  <img src="/src/assets/img/itau.print.png">
+</p>
+
+Layout desenvolvido por @gilbertoprado.design
 
 ## Project setup
 ```
@@ -14,11 +23,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
